@@ -12,9 +12,9 @@ class String
 
   def question?
     if self.end_with?("?")
-      return false 
-    else 
       return true 
+    else 
+      return false 
     end
   end
 
